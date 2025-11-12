@@ -53,8 +53,8 @@ encabezados, listas, tablas, enlaces e imágenes.
 Los encabezados se crean usando el símbolo **#**.  
 Mientras más # uses, más pequeño será el título.
 
-EJEMPLO
 ```
+EJEMPLO:
 # Encabezado 1
 ## Encabezado 2
 ### Encabezado 3
@@ -62,11 +62,11 @@ EJEMPLO
 ---
 
 ## 2. Listas Desordenadas
-Se crea usando el simbolo **-** al principio de una palabra.
+Se crea usando el simbolo **-** antes de una palabra.
 ```
-- Manzanas  
-- Naranjas  
-- Peras
+- Palabra 1 
+- Palabra 2 
+- Palabra 3
 ```
 
 

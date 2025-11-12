@@ -28,11 +28,8 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 | RNF3 | Seguridad de datos | El sistema debe guardar la información de las citas de manera local y segura, evitando pérdida de datos por cierres inesperados |
 
 ## Caso de Prueba
+| Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
 |----|------------------------|------------------|--------------------|------------|
-| Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion | |
-| 1. | RF1 – Registrar cita | Fecha: 15/11/2025
-Hora: 09:00
-Asunto: “Cita médica”
-Descripción: “Chequeo general” |
-| 2. | RF2 – Consultar cita |
-| 3. | RF3 – Editar cita |
+| 1. | RF1 – Registrar cita | Fecha: 15/11/2025<br>Hora: 09:00<br>Asunto: “Cita médica”<br>Descripción: “Chequeo general” | La cita se registra correctamente en la base de datos y se muestra en la lista de citas | Cita creada y visualizada correctamente en la agenda |
+| 2. | RF2 – Consultar cita | Buscar: “médica” | El sistema muestra la cita registrada que contiene la palabra clave “médica” | Cita encontrada correctamente por palabra clave |
+| 3. | RF3 – Editar cita | Cita seleccionada: “Cita médica”<br>Nuevo asunto: “Chequeo odontológico” | Se actualiza la cita con el nuevo asunto sin errores | Cita modificada correctamente y actualizada en pantalla |

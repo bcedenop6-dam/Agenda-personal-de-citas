@@ -44,7 +44,7 @@ Cada actualización se registra con fecha, autor y descripción, lo cual mejora 
 Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.
 
 # Ejemplo de Como Usar Markdown
-Este documento muestra cómo usar los **elementos básicos de formato** en Markdown:  
+Esta seccion muestra cómo usar los **elementos básicos de formato** en Markdown:  
 encabezados, listas, tablas, enlaces e imágenes.
 
 ---
@@ -58,4 +58,16 @@ Mientras más # uses, más pequeño será el título.
 # Encabezado 1
 ## Encabezado 2
 ### Encabezado 3
+```
+---
+
+## 2. Listas Desordenadas
+- Manzanas  
+- Naranjas  
+- Peras  
+
+
+
+
+
 

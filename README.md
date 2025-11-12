@@ -43,3 +43,45 @@ El uso de **Git y GitHub** permite mantener un control detallado sobre los cambi
 Cada actualización se registra con fecha, autor y descripción, lo cual mejora la **colaboración**, la **organización** y la **transparencia del desarrollo**.  
 Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.
 
+# Sistema de Agenda Personal de Citas
+
+## 1. Descripción del Caso
+El sistema de agenda personal de citas permite a los usuarios **registrar, consultar, actualizar y eliminar citas personales** de manera sencilla.  
+Su objetivo principal es **organizar y gestionar el tiempo de manera eficiente**, evitando conflictos de horarios y asegurando que todas las citas importantes sean recordadas.
+
+## 2. Objetivos
+- Facilitar la **gestión de citas personales**.  
+- Permitir **consultar citas por fecha, hora o descripción**.  
+- Ofrecer una **interfaz simple y amigable** para la administración de citas.  
+- Mejorar la **organización y planificación del usuario**.
+
+## 3. Requerimientos
+### Funcionales
+1. Registrar nuevas citas con: fecha, hora y descripción.  
+2. Consultar citas por día o por rango de fechas.  
+3. Modificar o eliminar citas existentes.  
+4. Notificar al usuario sobre citas próximas.
+
+### No funcionales
+- La aplicación debe ser **fácil de usar** y **rápida**.  
+- Los datos deben ser **almacenados de forma segura**.  
+- La interfaz debe ser compatible con **dispositivos móviles y de escritorio**.
+
+## 4. Tabla de Pruebas Funcionales
+
+| Caso de Prueba | Acción | Resultado Esperado | Validación |
+|----------------|--------|------------------|------------|
+| Registrar cita | Ingresar fecha, hora y descripción | La cita se guarda correctamente | Verificar que la cita aparece en la agenda |
+| Consultar citas | Buscar por fecha específica | Se muestran todas las citas de esa fecha | Comparar resultados con las citas registradas |
+| Eliminar cita | Seleccionar una cita y eliminar | La cita desaparece de la agenda | Confirmar que la cita ya no aparece en la lista |
+
+## 5. Tipo de Mantenimiento Propuesto
+- **Mantenimiento correctivo:** Corregir errores de registro, edición o eliminación de citas.  
+- **Mantenimiento evolutivo:** Añadir funcionalidades como recordatorios automáticos, exportación de citas o integración con calendarios externos.
+
+## 6. Reflexión sobre el Control de Versiones
+El control de versiones permite:
+- **Rastrear cambios** realizados en el proyecto.  
+- **Colaborar en equipo** sin sobrescribir el trabajo de otros.  
+- **Revertir versiones** si ocurre un error o un fallo en la implementación.  
+- Mantener un **historial documentado** de mejoras y correcciones, lo que aumenta la confiabilidad y facilita el mantenimiento del sistema.

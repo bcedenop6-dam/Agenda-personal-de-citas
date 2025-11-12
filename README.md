@@ -10,7 +10,6 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 - Facilitar la búsqueda de citas por fecha, tema o tipo.
 - Garantizar que los datos sean seguros y se almacenen correctamente.
 
-
 ## Requerimientos Funcionales
 | ID | Tipo | Descripción |
 |----|------|-------------|
@@ -27,7 +26,7 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 | RNF2 | Rendimiento | El sistema debe responder a las acciones del usuario en menos de 2 segundos |
 | RNF3 | Seguridad de datos | El sistema debe guardar la información de las citas de manera local y segura, evitando pérdida de datos por cierres inesperados |
 
-## tabla de Prueba
+## Tabla de Prueba
 | Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
 |----|------------------------|------------------|--------------------|------------|
 | 1. | RF1 – Registrar cita | Fecha: 15/11/2025<br>Hora: 09:00<br>Asunto: “Cita médica”<br>Descripción: “Chequeo general” | La cita se registra correctamente en la base de datos y se muestra en la lista de citas | Cita creada y visualizada correctamente en la agenda |

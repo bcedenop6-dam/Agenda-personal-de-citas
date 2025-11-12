@@ -1,6 +1,6 @@
 <h1 align="center"> AGENDA PERSONAL DE CITAS </h1>
 
-## Descripcion del Caso
+## Descripcion
 El proyecto consiste en desarrollar una **aplicación de Agenda Personal de Citas**, que permita al usuario **registrar, consultar, modificar y eliminar citas** de manera rápida y organizada.  
 El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando la productividad personal o profesional.
 
@@ -27,7 +27,7 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 | RNF2 | Rendimiento | El sistema debe responder a las acciones del usuario en menos de 2 segundos |
 | RNF3 | Seguridad de datos | El sistema debe guardar la información de las citas de manera local y segura, evitando pérdida de datos por cierres inesperados |
 
-## Caso de Prueba
+## tabla de Prueba
 | Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
 |----|------------------------|------------------|--------------------|------------|
 | 1. | RF1 – Registrar cita | Fecha: 15/11/2025<br>Hora: 09:00<br>Asunto: “Cita médica”<br>Descripción: “Chequeo general” | La cita se registra correctamente en la base de datos y se muestra en la lista de citas | Cita creada y visualizada correctamente en la agenda |
@@ -36,11 +36,28 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 
 ## Propuesta de Mantenimiento
 Se propone realizar un **mantenimiento evolutivo** para incorporar nuevas funcionalidades, como sincronización con Google Calendar o integración con asistentes virtuales.
-
 También se planifica un **mantenimiento preventivo** mensual, enfocado en respaldos automáticos y actualizaciones de seguridad.
 
 ## Reflexión sobre el control de versiones
 El uso de **Git y GitHub** permite mantener un control detallado sobre los cambios realizados en el sistema y en la documentación.  
 Cada actualización se registra con fecha, autor y descripción, lo cual mejora la **colaboración**, la **organización** y la **transparencia del desarrollo**.  
 Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.
+
+# Título Principal
+Este es un párrafo de ejemplo para mostrar cómo usar Markdown.
+
+## Encabezados de Nivel 2
+### Encabezados de Nivel 3
+Se pueden usar hasta seis niveles de encabezados con el símbolo # [1, 5].
+
+## Listas
+*   **Lista desordenada:** Se crean con un asterisco, guion o signo de más [8, 9].
+*   **Lista ordenada:** Se crean numerando los elementos [8, 9].
+    1.  Primer elemento.
+    2.  Segundo elemento.
+    3.  Tercer elemento.
+
+## Tablas
+Se crean usando barras verticales (|) para separar las columnas y tres o más guiones (---) para el encabezado de cada columna [11].
+
 

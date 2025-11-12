@@ -43,21 +43,19 @@ El uso de **Git y GitHub** permite mantener un control detallado sobre los cambi
 Cada actualización se registra con fecha, autor y descripción, lo cual mejora la **colaboración**, la **organización** y la **transparencia del desarrollo**.  
 Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.
 
-# Título Principal
-Este es un párrafo de ejemplo para mostrar cómo usar Markdown.
+# Ejemplo de Como Usar Markdown
+Este documento muestra cómo usar los **elementos básicos de formato** en Markdown:  
+encabezados, listas, tablas, enlaces e imágenes.
 
-## Encabezados de Nivel 2
-### Encabezados de Nivel 3
-Se pueden usar hasta seis niveles de encabezados con el símbolo # [1, 5].
+---
 
-## Listas
-*   **Lista desordenada:** Se crean con un asterisco, guion o signo de más [8, 9].
-*   **Lista ordenada:** Se crean numerando los elementos [8, 9].
-    1.  Primer elemento.
-    2.  Segundo elemento.
-    3.  Tercer elemento.
+## 1. Encabezados
 
-## Tablas
-Se crean usando barras verticales (|) para separar las columnas y tres o más guiones (---) para el encabezado de cada columna [11].
+Los encabezados se crean usando el símbolo **#**.  
+Mientras más # uses, más pequeño será el título.
 
+```markdown
+# Encabezado 1
+## Encabezado 2
+### Encabezado 3
 

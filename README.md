@@ -1,11 +1,13 @@
 <h1 align="center"> Agenda-personal-de-citas </h1>
 
-## 📋 Requerimientos
-| Tipo | Descripción |
+
+## Requerimientos Funcionales
+| ID | Tipo | Descripción |
 |------|--------------|
-| RF1 | Registrar ingreso de vehículos con placa, hora y tipo de cliente. |
-| RF2 | Calcular el tiempo total de permanencia y valor a pagar. |
-| RF3 | Aplicar descuentos para clientes frecuentes o largas estancias. |
-| RF4 | Generar reportes diarios de ingresos y salidas. |
-| RNF1 | La interfaz debe ser fácil de usar y accesible desde un navegador. |
-| RNF2 | El sistema debe guardar la información en una base de datos segura. |
+| RF1 | Entrada y almacenamiento | El sistema debe permitir al usuario registrar una nueva cita indicando fecha, hora, descripción y lugar. |
+| RF2 | Consulta | El sistema debe permitir visualizar las citas programadas por día, semana o mes. |
+| RF3 | Modificacion | El sistema debe permitir editar la información de una cita existente. |
+| RF4 | Eliminacion | El sistema debe permitir eliminar una cita seleccionada por el usuario. |
+| RF5| notificacion | El sistema debe mostrar un recordatorio automático minutos antes del inicio de cada cita. |
+
+

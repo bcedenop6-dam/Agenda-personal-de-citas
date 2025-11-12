@@ -34,14 +34,12 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 | 2. | RF2 – Consultar cita | Buscar: “médica” | El sistema muestra la cita registrada que contiene la palabra clave “médica” | Cita encontrada correctamente por palabra clave |
 | 3. | RF3 – Editar cita | Cita seleccionada: “Cita médica”<br>Nuevo asunto: “Chequeo odontológico” | Se actualiza la cita con el nuevo asunto sin errores | Cita modificada correctamente y actualizada en pantalla |
 
-## Tipo de mantenimiento propuesto
+## Propuesta de Mantenimiento
 Se propone realizar un **mantenimiento evolutivo** para incorporar nuevas funcionalidades, como sincronización con Google Calendar o integración con asistentes virtuales.
 
 También se planifica un **mantenimiento preventivo** mensual, enfocado en respaldos automáticos y actualizaciones de seguridad.
 
----
-
-## 💭 Reflexión sobre el control de versiones
+## Reflexión sobre el control de versiones
 El uso de **Git y GitHub** permite mantener un control detallado sobre los cambios realizados en el sistema y en la documentación.  
 Cada actualización se registra con fecha, autor y descripción, lo cual mejora la **colaboración**, la **organización** y la **transparencia del desarrollo**.  
 Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.

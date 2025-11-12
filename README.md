@@ -1,5 +1,9 @@
 <h1 align="center"> Agenda-personal-de-citas </h1>
 
+## Descripcion del Caso
+El proyecto consiste en desarrollar una **aplicación de Agenda Personal de Citas**, que permita al usuario **registrar, consultar, modificar y eliminar citas** de manera rápida y organizada.  
+El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando la productividad personal o profesional.
+
 
 ## Requerimientos Funcionales
 | ID | Tipo | Descripción |

@@ -27,3 +27,12 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 | RNF2 | Rendimiento | El sistema debe responder a las acciones del usuario en menos de 2 segundos |
 | RNF3 | Seguridad de datos | El sistema debe guardar la información de las citas de manera local y segura, evitando pérdida de datos por cierres inesperados |
 
+## Caso de Prueba
+|----|------------------------|------------------|--------------------|------------|
+| Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion | |
+| 1. | RF1 – Registrar cita | Fecha: 15/11/2025
+Hora: 09:00
+Asunto: “Cita médica”
+Descripción: “Chequeo general” |
+| 2. | RF2 – Consultar cita |
+| 3. | RF3 – Editar cita |

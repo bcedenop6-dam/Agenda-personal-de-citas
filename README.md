@@ -50,11 +50,11 @@ encabezados, listas, tablas, enlaces e imágenes.
 ---
 
 ## 1. Encabezados
-
 Los encabezados se crean usando el símbolo **#**.  
 Mientras más # uses, más pequeño será el título.
 
-```markdown
+EJEMPLO
+```
 # Encabezado 1
 ## Encabezado 2
 ### Encabezado 3
@@ -62,9 +62,13 @@ Mientras más # uses, más pequeño será el título.
 ---
 
 ## 2. Listas Desordenadas
+Se crea usando el simbolo **-** al principio de una palabra.
+```
 - Manzanas  
 - Naranjas  
-- Peras  
+- Peras
+```
+
 
 
 

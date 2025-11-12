@@ -1,5 +1,5 @@
 
-#Ejemplo de Como Usar Markdown
+# Ejemplo de Como Usar Markdown
 Esta seccion muestra cómo usar los elementos básicos de formato en Markdown.
 Encabezados, listas, tablas, enlaces e imágenes.
 

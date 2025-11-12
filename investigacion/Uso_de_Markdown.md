@@ -1,5 +1,6 @@
 
-# Ejemplo de Como Usar Markdown
+<h1 align="center"> Ejemplo de Como Usar Markdown </h1>
+
 Esta seccion muestra cómo usar los **elementos básicos de formato** en Markdown:  
 encabezados, listas, tablas, enlaces e imágenes.
 

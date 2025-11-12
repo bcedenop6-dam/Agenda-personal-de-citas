@@ -1,4 +1,4 @@
-<h1 align="center"> Agenda-personal-de-citas </h1>
+<h1 align="center"> AGENDA PERSONAL DE CITAS </h1>
 
 ## Descripcion del Caso
 El proyecto consiste en desarrollar una **aplicación de Agenda Personal de Citas**, que permita al usuario **registrar, consultar, modificar y eliminar citas** de manera rápida y organizada.  

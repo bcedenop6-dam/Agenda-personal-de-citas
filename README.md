@@ -21,10 +21,12 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 
 ## Requerimientos no Funcionales
 | ID | Tipo | Descripción |
-|----|------|-------------|
-| RNF1 | Usabilidad | La interfaz debe ser intuitiva y fácil de usar, con botones claramente identificados |
-| RNF2 | Rendimiento | El sistema debe responder a las acciones del usuario en menos de 2 segundos |
-| RNF3 | Seguridad de datos | El sistema debe guardar la información de las citas de manera local y segura, evitando pérdida de datos por cierres inesperados |
+|-|-|-|
+| RNF1 | Usabilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. |
+| RNF2 | Rendimiento | El sistema debe cargar la agenda y las citas en menos de 3 segundos. |
+| RNF3 | Seguridad de datos | Los datos de las citas deben mantenerse privados y protegidos. |
+| RNF4 | Disponibilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. | Los usuarios deben poder crear una cita en menos de 3 clics |
+| RNF5 | Mantenibilidad | El sistema debe funcionar en diferentes dispositivos y navegadores. |
 
 ## Tabla de Prueba
 | Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |

@@ -10,18 +10,20 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 - Facilitar la búsqueda de citas por fecha, tema o tipo.
 - Garantizar que los datos sean seguros y se almacenen correctamente.
 
-## Requerimientos no Funcionales
+## Requerimientos funcionales y no funcionales
 | ID | Tipo | Descripción |
 |-|-|-|
+| RF1 | Entrada y almacenamiento | El sistema debe permitir al usuario registrar una nueva cita indicando fecha, hora, descripción y lugar |
+| RF2 | Consulta | El sistema debe permitir visualizar las citas programadas por día, semana o mes |
+| RF3 | Modificacion | El sistema debe permitir editar la información de una cita existente |
 | RNF1 | Usabilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. |
 | RNF2 | Rendimiento | El sistema debe cargar la agenda y las citas en menos de 3 segundos. |
 | RNF3 | Seguridad de datos | Los datos de las citas deben mantenerse privados y protegidos. |
-| RNF4 | Disponibilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. | Los usuarios deben poder crear una cita en menos de 3 clics |
-| RNF5 | Mantenibilidad | El sistema debe funcionar en diferentes dispositivos y navegadores. |
+
 
 ## Tabla de Prueba
 | Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
-|----|------------------------|------------------|--------------------|------------|
+|-|-|-|-|-|
 | 1. | RF1 – Registrar cita | Fecha: 15/11/2025<br>Hora: 09:00<br>Asunto: “Cita médica”<br>Descripción: “Chequeo general” | La cita se registra correctamente en la base de datos y se muestra en la lista de citas | Cita creada y visualizada correctamente en la agenda |
 | 2. | RF2 – Consultar cita | Buscar: “médica” | El sistema muestra la cita registrada que contiene la palabra clave “médica” | Cita encontrada correctamente por palabra clave |
 | 3. | RF3 – Editar cita | Cita seleccionada: “Cita médica”<br>Nuevo asunto: “Chequeo odontológico” | Se actualiza la cita con el nuevo asunto sin errores | Cita modificada correctamente y actualizada en pantalla |
